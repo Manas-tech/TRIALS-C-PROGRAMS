@@ -15,6 +15,7 @@ int main(){
             scanf("%d",&b[i][j]);
         }
 }
+printf("THE MULTIPLICATION OF TWO MATRICES IS \n");
    for(i=0;i<3;i++)
    {
    	  for(j=0;j<3;j++)
