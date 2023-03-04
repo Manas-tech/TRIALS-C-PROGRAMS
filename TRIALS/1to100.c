@@ -6,10 +6,10 @@ int main(){
 	scanf("%d",&a);
 	if(a>=50 && a<=100)
 	{
-		printf("success!!!");
+		printf("success!!");
 	}
 	else {
-		printf("sorry!!!!");
+		printf("sorry!!!");
 		
 	}
 	return 0;
