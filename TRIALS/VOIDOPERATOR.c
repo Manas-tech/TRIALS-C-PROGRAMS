@@ -13,7 +13,7 @@ void addition ()
     printf("ENTER TWO NUMBERS\n");
     scanf("%d%d",&a,&b);
     add=a+b;
-    printf("THE SUM OF THE TWO NUMBERS IS %d\n",add);
+    printf("THE SUM OF  THE TWO NUMBERS IS %d\n",add);
 }
 void diffrence ()
 {
