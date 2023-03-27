@@ -2,7 +2,7 @@
 int main()
 {
     int a[5],b,c,swap;
-    printf("ENTER THE VALUES TO   BE ARRANGED\n");
+    printf("ENTER THE VALUES TO   BE  ARRANGED\n");
     for (b=0;b<5;b++)
     {
         
