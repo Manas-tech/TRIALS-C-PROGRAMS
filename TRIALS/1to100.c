@@ -2,7 +2,7 @@
 int main(){
 	int a;
 	int b;
-	printf("ENTER ANY  NUMBER  BETWEEN 1 TO 100 \n" );
+	printf("ENTER ANY  NUMBER   BETWEEN 1 TO 100 \n" );
 	scanf("%d",&a);
 	if(a>=50 && a<=100)
 	{
