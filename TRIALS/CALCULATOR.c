@@ -3,8 +3,6 @@
 int main(){
     int q;
     int a, b, result;
-    
-    
     printf("Enter an Operator (+, *, *, /): ");
     scanf("%d", &q);
     printf("Enter two operands: \n");
