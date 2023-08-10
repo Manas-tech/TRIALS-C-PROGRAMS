@@ -2,13 +2,13 @@
 
 int main ()
 {
-   int num1, num2, i, j, c;
+   int n1, n2, i, j, c,z=0,t=0;
    printf("Enter two numbers: ");
-   scanf("%d %d", &num1, &num2);
+   scanf("%d %d", &n1, &n2);
 
-   printf("Prime numbers between %d and %d are:\n", num1, num2);
-   // Displaying prime number between num1 and num2
-   for (i = num1 + 1; i < num2; ++i)
+   printf("Prime numbers between %d and %d are:\n", n1, n2);
+
+   for (i = n1 + 1; i < n2; ++i)
    {
       c = 0; //flag is set to 0
       for (j = 2; j <= i/2; ++j)
@@ -19,8 +19,14 @@ int main ()
             break;
          }
       }
-      if (c == 0) //if flag == 0, then display i
+      if (c == 0) {
           printf("%d\t", i);
+          z=z+i;
+           t++;}
+         
    }
+   printf(" \nsum %d",z);
+     printf(" \ntotal prime no %d",t);
+
    return 0;
 }
